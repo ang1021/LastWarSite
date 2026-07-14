@@ -1,51 +1,98 @@
-body{
-
-margin:0;
-
-height:100vh;
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-font-family:Arial;
-
-background:#f4f4f4;
-
+/* Global */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0F0F10;
+    color: #E0E0E0;
 }
 
-h1{
-
-margin-bottom:60px;
-
-font-size:48px;
-
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #1A1A1C;
+    padding-top: 60px;
+    transition: 0.3s;
 }
 
-button{
-
-padding:35px 80px;
-
-font-size:32px;
-
-cursor:pointer;
-
-border:none;
-
-border-radius:12px;
-
-background:#4285F4;
-
-color:white;
-
+.sidebar a {
+    display: block;
+    padding: 15px;
+    color: #E0E0E0;
+    text-decoration: none;
 }
 
-button:hover{
-
-background:#2f6ddb;
-
+.sidebar a:hover {
+    background: #2A2A2C;
 }
+
+/* Hamburger */
+.hamburger {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: #E0E0E0;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.placeholder {
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background: #3A3AF0;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #5A5AFA;
+}
+
+/* Forms */
+.form-page {
+    padding: 80px 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.storm-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, select, textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background: #1A1A1C;
+    color: #E0E0E0;
+}
+
+.confirmation {
+    margin-top: 20px;
+    color: #5AFF5A;
+    font-weight: bold;
+}
+
