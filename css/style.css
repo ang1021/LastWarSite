@@ -49,17 +49,20 @@ body {
 
 /* Hamburger */
 .hamburger {
-    background-color: #2A2A2E;   /* change this to any color */
-    color: #E0E0E0;              /* icon color */
-    border: none;
-    padding: 10px;
-    border-radius: 8px;          /* optional: rounded corners */
-    cursor: pointer;
     position: fixed;
     top: 20px;
     left: 20px;
     z-index: 2000;
+
+    font-size: 32px;        /* icon size */
+    padding: 10px 14px;     /* box size */
+    background-color: #2A2A2E;  /* visible box */
+    color: #E0E0E0;
+    border: none;
+    border-radius: 8px;     /* optional */
+    cursor: pointer;
 }
+
 
 /* Hero */
 .hero {
