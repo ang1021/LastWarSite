@@ -16,6 +16,14 @@ body {
     padding: 40px;
 }
 
+.section-card {
+    background: rgba(26, 26, 28, 0.6);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin-bottom: 40px;
+}
+
 /* Sidebar */
 .sidebar {
     position: fixed;
