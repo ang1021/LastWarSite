@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(135deg, #0F0F10, #2A2A2E);
+    background: radial-gradient(circle at top left, #1A1A1C, #0F0F10 70%);
     color: #E0E0E0;
 }
 
