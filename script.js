@@ -1,12 +1,6 @@
-// The URL points to the google apps script that updates the spreadsheet
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxH1S-HyGLSpSOYtxXBkaunpSjksykQtGWRpDxfOyWK5Y4rZiLDrbZv4Qdoh1L5R-jpEA/exec";
+const menuBtn = document.getElementById("menu-btn");
+const sidebar = document.getElementById("sidebar");
 
-document.getElementById("sendButton").addEventListener("click", async () => {
-
-    await fetch(WEB_APP_URL,{
-        method:"POST"
-    });
-
-    alert("Sent!");
-
+menuBtn.addEventListener("click", () => {
+    sidebar.style.left = sidebar.style.left === "0px" ? "-250px" : "0px";
 });
