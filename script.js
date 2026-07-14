@@ -1,4 +1,4 @@
-const WEB_APP_URL = "https://dbt-alliance-dbt1.vercel.app/";
+const WEB_APP_URL = "https://dbt-alliance-dbt1.vercel.app";
 
 document.getElementById("sendButton").addEventListener("click", async () => {
 
