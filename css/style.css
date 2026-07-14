@@ -2,8 +2,7 @@
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background: #0F0F10;
-    color: #E0E0E0;
+    background: linear-gradient(135deg, #0F0F10, #1A1A1C);
 }
 
 /* Desktop layout container */
