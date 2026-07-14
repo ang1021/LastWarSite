@@ -6,6 +6,13 @@ body {
     color: #E0E0E0;
 }
 
+/* Desktop layout container */
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
 /* Sidebar */
 .sidebar {
     position: fixed;
