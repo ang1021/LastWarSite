@@ -53,9 +53,9 @@ body {
     top: 20px;
     left: 20px;
     z-index: 2000; /* higher than sidebar */
-    font-size: 32px;
+    font-size: 26px;
     cursor: pointer;
-    color: #2A2A2C;
+    color: #475061;
 }
 
 /* Hero */
