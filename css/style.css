@@ -28,7 +28,7 @@ body {
 .sidebar {
     position: fixed;
     left: -250px;
-    top: 0;
+    top: -100px;
     width: 250px;
     height: 100%;
     background: #1A1A1C;
@@ -55,7 +55,7 @@ body {
     z-index: 2000; /* higher than sidebar */
     font-size: 32px;
     cursor: pointer;
-    color: #E0E0E0;
+    color: #2A2A2C;
 }
 
 /* Hero */
